@@ -3,13 +3,46 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    height: 65px;
-    background-color: #54cad5;
-    color: white;
+    height: 40px;
+    width: 100%;
+    background-color: #c3d3d5;
+    color: #303030;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(4,60%); 
+    gap:30px ;
+    height: auto;
+    width: auto;
+    background-color: #c3d3d5;
+    justify-content: space-between;
     display: flex;
     align-items: center;
-    padding-left: 25px;
+    padding-left: 20px;
+    
+    
 }
+a{
+    color: #303030;
+}
+
+.link{
+    color: blue;
+}
+
+
 .cara{
     border-radius: 500px;
     height: 200px;
@@ -48,6 +81,7 @@ header{
     background-color: #F2F2F2;
     color: #303030;
     padding: 10px;
+    
 }
 
 .dos{
