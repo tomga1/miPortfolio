@@ -52,7 +52,7 @@ header{
 
 .dos{
     background-color: #F2F2F2;
-    height: 700px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,7 +76,7 @@ header{
 
 .tres{
     background-color: #303030;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -115,7 +115,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
     color: #F2F2F2;
-    height: 250px;
+    height: 80px;
 }
 .contacto{
     width: 15%;
