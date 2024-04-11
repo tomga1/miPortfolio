@@ -155,10 +155,14 @@ footer{
     display: flex;
     justify-content: center;
     position: fixed;
-    bottom: 40px;
+    bottom: 0;
     right: 33px;
     width: 230px;
-    
+    height: 60px;
+}
+
+.contacto img{
+    height: 100%;
 }
 
 @media (max-width: 1000px) {
