@@ -152,11 +152,10 @@ footer{
     height: 80px;
 }
 .contacto{
-    width: 15%;
     display: flex;
     justify-content: center;
     position: fixed;
-    bottom: 0;
+    bottom: 25px;
     right: 0;
     width: 290px;
     
