@@ -160,13 +160,16 @@ footer{
     right: 0px;
     width: 230px;
     height: auto;
-    gap:10px;
+    gap: 10px;
+    margin-right: -150px;
 }
 
 .contacto img{
     height: 30px;
     width: 30px;
+    
 }
+
 
 @media (max-width: 1000px) {
     .caja-central{
