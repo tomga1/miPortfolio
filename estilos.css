@@ -157,7 +157,7 @@ footer{
     justify-content: center;
     position: fixed;
     bottom: 0;
-    left: 1460px;
+    right: 0px;
     width: 230px;
     height: auto;
     gap:10px;
