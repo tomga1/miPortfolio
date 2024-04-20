@@ -75,12 +75,16 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: calc(100vw - 425px);
     background-color: #F2F2F2;
     color: #303030;
     padding: 10px;
     
+    
 }
+
+
+
 
 .dos{
     background-color: #F2F2F2;
@@ -181,7 +185,7 @@ footer{
     }
     .caja-presentacion{
         width: 100%;
-        height: 50%;
+        height: 70%;
         align-items: flex-start;
     }
     .aptitudes{
