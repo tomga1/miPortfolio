@@ -78,18 +78,25 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 40%;
+    height: 400px;
     background-color: #424242;
 }
 .caja-presentacion{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100vw - 425px);
+    width: calc(80vw - 425px);
+    height: 400px;
     background-color: #F2F2F2;
     color: #303030;
-    padding: 10px;
+    padding: 0;
     
     
+}
+p.presentacion{
+    font-size: 1.2em;
+    margin: 0px;
+    margin: 0 0 0 10px;
 }
 
 .dos{
@@ -120,10 +127,13 @@ nav a:hover {
 
 .skills-container {
     border-radius: 15px;
-    padding: 1rem 0;
+    padding: 0;
     text-align: center;
     background-color: #EADBC8;
     width: 85%;
+    height: 380px;
+    position: relative; 
+    
 }
 
 .skills-img {
@@ -156,6 +166,9 @@ nav a:hover {
     color: #000000;
     padding: 10px;
     cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .accordion-content {
