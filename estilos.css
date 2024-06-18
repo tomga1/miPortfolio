@@ -52,7 +52,7 @@ nav a:hover {
 
 .cara{
     border-radius: 500px;
-    height: 200px;
+    height: 50%;
 }
 .uno{
     width: 100%;
@@ -206,7 +206,7 @@ p.presentacion{
 }
 .card{
     text-align: center;
-    width: 30%;
+    width: 25%;
     border: solid #424242 1px;
     border-radius: 10px;
     padding: 5px;
