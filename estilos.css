@@ -53,7 +53,6 @@ nav a:hover {
 .cara{
     border-radius: 500px;
     height: 50%;
-    
 }
 .uno{
     width: 100%;
@@ -83,9 +82,10 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 400px;
+    height: 350px;
     background-color: #424242;
-    margin: auto;
+    margin: -4% auto;
+
 }
 .caja-presentacion{
     display: flex;
@@ -101,14 +101,15 @@ nav a:hover {
 }
 p.presentacion{
     font-size: 16px;
-    margin: auto;
+    margin: -35% auto;
     padding: auto;
     text-align: center;
 }
 
 .dos{
     background-color: #F2F2F2;
-    height: 800px;
+    height: 100%;
+    margin: 1% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,15 +138,12 @@ p.presentacion{
 
 .skills-container {
     border-radius: 15px;
-    padding: 0;
     text-align: center;
     background-color: #EADBC8;
     width: 85%;
-    height: 380px;
+    height: 430px;
     position: relative; 
     box-shadow: 0 0 30px 0 #0007;
-    margin: 5% auto;
-
 }
 
 .skills-img {
@@ -176,7 +174,7 @@ p.presentacion{
 .accordion-header {
     background-color: #DAC0A3;
     color: #000000;
-    padding: 10px;
+    box-shadow: 0 0 30px 0 #0007;    padding: 10px;
     cursor: pointer;
     position: sticky;
     top: 0;
@@ -186,6 +184,10 @@ p.presentacion{
 .accordion-content {
     overflow-y: auto;
     padding-bottom: 10px;
+}
+
+details{
+    border: 1px solid black;
 }
 
 .tech-list{
