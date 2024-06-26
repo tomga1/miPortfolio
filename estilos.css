@@ -200,7 +200,7 @@ details{
     margin: 8px;
 }
 .proyectos{
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -307,12 +307,12 @@ footer p{
         flex-direction: column;
         width: 100%;
         align-items: center;
-        justify-content: space-between;
         padding-bottom: 20px;
     }
     .card{
-        width: 80%;
-        margin-top: 20px;
+        width: 90%;
+        max-width: 300px;
+        margin: 10px 0;
         
     }
     .red-social{
