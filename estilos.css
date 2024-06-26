@@ -21,7 +21,7 @@ header{
 
 nav {
     display: grid;
-    grid-template-columns: repeat(5, 15%);
+    grid-template-columns: repeat(5, 23%);
     width: 100%;
     background-color: #DAC0A3;
     justify-content: space-around;
@@ -56,8 +56,8 @@ nav a:hover {
 .uno{
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding-top: 5%;
     /* background-color: #EADBC8; */
@@ -65,7 +65,7 @@ nav a:hover {
     color: white;  
 }
 .caja-central{
-    margin: 8% auto;
+    margin-top: 10%; 
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -92,8 +92,7 @@ nav a:hover {
     padding: 1rem;
 }
 p.presentacion{
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 16px;
 }
 
 .dos{
