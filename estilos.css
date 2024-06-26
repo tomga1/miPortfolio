@@ -58,47 +58,29 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-<<<<<<< HEAD
-    align-items: center;
+    flex-direction: column;
     padding-top: 5%;
-    background-color: #EADBC8;
-    color: white;
-=======
-    height: calc(100vh - 65px);
     /* background-color: #EADBC8; */
     background: linear-gradient(#DAC0A3,#fffefd);
-    color: white;
-    
-    
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
+    color: white;  
 }
 .caja-central{
-    margin-top: 10%;
+    margin: 8% auto;
     width: 80%;
     display: flex;
     flex-direction: row;
     border-radius: 20px;
     overflow: hidden;
-<<<<<<< HEAD
     height: auto;
-=======
-    height: 50%;
     box-shadow: 0 0 30px 0 #0007;
-    margin: 15% auto;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
 }
 .caja-cara{
     display: flex;
     justify-content: center;
     width: 40%;
-<<<<<<< HEAD
     height: auto;
-=======
-    height: 350px;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
     background-color: #424242;
     margin: -4% auto;
-
 }
 .caja-presentacion{
     display: flex;
@@ -110,37 +92,17 @@ nav a:hover {
     padding: 1rem;
 }
 p.presentacion{
-<<<<<<< HEAD
     font-size: 1.2em;
-=======
-    font-size: 16px;
-    margin: -35% auto;
-    padding: auto;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
     text-align: center;
 }
 
 .dos{
-    background-color: #F2F2F2;
-<<<<<<< HEAD
+    background-color: #fffefd;
     padding: 10%;
-=======
-    height: 100%;
-    margin: 1% auto;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #303030;
-<<<<<<< HEAD
-=======
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 5%;
-}
-.aptitudes{
-    width: 50%;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
     
 }
 
@@ -161,15 +123,9 @@ p.presentacion{
     border-radius: 15px;
     text-align: center;
     background-color: #EADBC8;
-<<<<<<< HEAD
     width: 80%;
     margin: 20px 0;
-=======
-    width: 85%;
-    height: 430px;
-    position: relative; 
     box-shadow: 0 0 30px 0 #0007;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
 }
 
 .skills-img {
@@ -225,15 +181,9 @@ details{
 }
 
 .tres{
-<<<<<<< HEAD
-    background-color: #EADBC8;
-    padding: 20px;
-=======
+    /* background-color: #EADBC8; */
     background: linear-gradient(#fffefd,#DAC0A3);
-    height: 20%;
-    margin: auto;
-    padding: auto;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,13 +207,8 @@ details{
     border: solid #424242 1px;
     border-radius: 10px;
     padding: 5px;
-<<<<<<< HEAD
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 30px 0 #0007;  
     margin: 20px 0;
-=======
-    box-shadow: 0 0 30px 0 #0007;
-    margin: 4% auto;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
 }
 .card img{
     width: 100%;
@@ -290,10 +235,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
     color: #F2F2F2;
-<<<<<<< HEAD
-=======
     box-shadow: 0 0 30px 0 #0007;
->>>>>>> fe3f8512df67615fb119d372a765078fbf34d307
 
 }
 footer p{
