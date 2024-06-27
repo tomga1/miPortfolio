@@ -86,6 +86,7 @@ nav a:hover {
 }
 .caja-presentacion{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 60%;
@@ -93,10 +94,27 @@ nav a:hover {
     color: #303030;
     padding: 1rem;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 0 #0007;    padding: 10px;
+
 }
 p.presentacion{
     font-size: 16px;
     line-height: 1.5;
+}
+
+.button{
+    background-color: #EADBC8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.button a{
+    color: black;
+    text-decoration: none;
 }
 
 .dos{
@@ -266,8 +284,8 @@ footer p{
 
 
 
-@media (max-width: 1000px) {
-    .caja-central{
+@media (min-width: 500px) {
+    /* .caja-central{
         width: auto;
         height: auto;
         flex-direction: column;
@@ -288,10 +306,10 @@ footer p{
 
     p.presentacion {
         font-size: 14px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
-        padding: 0 10px; /* Añadir padding para un mejor espaciado */
-    }
+         /* Añadir padding para un mejor espaciado */
+    /* } */
 
-    .aptitudes{
+    /* .aptitudes{
         width: auto;
     }
     .dos{
@@ -317,5 +335,5 @@ footer p{
     }
     .red-social{
         margin: 0 10px 0 10px;
-    }
+    } */ */
 }
