@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
     
 }
 header{
@@ -31,8 +36,8 @@ nav a {
     color: #303030;
     text-align: center;
     text-decoration: none; 
-    font-size: 18px; 
-    font-weight: bold; 
+    font-size: 1rem; 
+    font-weight: 400;
     padding: 10px 0; 
     border-bottom: 2px solid transparent; 
     transition: border-bottom 0.3s; 
@@ -148,6 +153,20 @@ p.presentacion{
     width: 80%;
     margin: 20px 0;
     box-shadow: 0 0 30px 0 #0007;
+}
+
+.skills-container h2{
+    font-weight: 400;
+}
+
+.Educacion{
+    font-weight: 400;
+}
+#Cursos_realizados{
+    font-weight: 400;
+}
+#Mis_Proyectos{
+    font-weight: 400;
 }
 
 .skills-img {
