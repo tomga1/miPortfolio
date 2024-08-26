@@ -243,6 +243,7 @@ details{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;}
     
 .card {
@@ -252,6 +253,8 @@ details{
     border-radius: 10px;
     box-shadow: 0 0 30px 0 #0007;
     margin: 1%;
+    display: flex;
+    
     }
 
 .card img {
@@ -323,5 +326,7 @@ footer p{
     .card {
         width: 90%; /* Adjust the card width to fit smaller screens */
         margin: 10px 0; /* Adjust margins for better spacing */
+        display: flex;
+        flex-direction: column;
     }
 }
